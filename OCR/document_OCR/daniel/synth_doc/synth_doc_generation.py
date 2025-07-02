@@ -802,8 +802,8 @@ def ensure_below_max_tokens(train_dataset, pg_text, total_tokens):
     do_break = False
     if hasattr(train_dataset, "subword_tokenizer"):
         pg_total_tokens = len(train_dataset.subword_tokenizer.encode(pg_text)) # we add 2 for the start and end layout tokens of the paragraph
-        if total_tokens + pg_total_tokens > train_dataset.subword_tokenizer.max_char_prediction:
-            nb_tokens_to_remove = total_tokens + pg_total_tokens + 2 -train_dataset.subword_tokenizer.max_char_prediction
+        if total_tokens + pg_total_tokens > train_dataset.params["max_char_prediction"]:
+            nb_tokens_to_remove = total_tokens + pg_total_tokens + 2 - train_dataset.params["max_char_prediction"]
 
             if nb_tokens_to_remove >= pg_total_tokens-12: # break if we don't have space for the new paragraph
                 do_break = True

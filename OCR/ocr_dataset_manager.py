@@ -654,7 +654,7 @@ class OCRDataset(GenericDataset):
             h, w, c = sample["img"].shape
         else:
             w, h = Image.open(sample['path']).size
-            c = 1 if self.params['config']['color_mode'] == 'L' else 3
+            c = 1 if self.params['config']['synthetic_data']['config']['color_mode'] == 'L' else 3
         return h, w, c
 
     def _create_blank_background(self, h, w, c):

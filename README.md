@@ -16,7 +16,7 @@ A demonstration video of DANIEL is available on Youtube:
 
 [![Youtube](video-image.png)](https://www.youtube.com/watch?v=ibJJrkYMl1U)
 
-Pretrained model weights can be downloaded [here](https://zenodo.org/records/15633064).
+Pretrained model weights can be downloaded [here](https://zenodo.org/records/15633064?preview=1&token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImY1MjdmMDU4LTcwMmItNDk3NC1iZTE4LWM4OWE4MTRiZGY5OCIsImRhdGEiOnt9LCJyYW5kb20iOiIwNDc5NmVjMWUxZThhOWFjMDUzZDVkYzFkMTdmZjdhOCJ9.Ic3dgCCtpEmwmoX3h-W_TEImtK1algZ3PqAMgRxl3xFco1JFjH8PDkRhC_LGcAZdBVoRR6gEIs9sz8X7RtI_xg).
 
 **This project is licensed under a custom Research Usage Only (RUO) license. Please refer to the license file LICENSE for more details.**
 
@@ -50,7 +50,7 @@ pip3 install .
 
 ### Required Files
 
-Certain files are necessary for running DANIEL and can be downloaded from [Zenodo](https://zenodo.org/records/15607305):
+Certain files are necessary for running DANIEL and can be downloaded from [Zenodo](https://zenodo.org/records/15607305?preview=1&token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjJmOTA0YjE5LWU3MWMtNDNhNy04MWVmLWJmMGY3ZjMwNDA0NiIsImRhdGEiOnt9LCJyYW5kb20iOiIxYzUxZmIxZTRmOTM4NmQyYmZiZTU3MzMxN2Y3ZTMzYyJ9.KMsyt-9Z09wpCZkRO0uGzR3paazTTYceG2-S-PmJw_l2mKRRcxRh_xS4I6jjEVduaTJyvjHg4rIn0F41TJKISQ):
 - **Tokenizer**: The folder `tokenizer-daniel` should be placed in `basic/subwords`.
 - **Substitution Dictionary**: `replace_dict.pkl`, which contains substitution candidates for each subword during teacher forcing. Place this file in `basic/subwords`.
 
@@ -126,7 +126,7 @@ To leverage synthetic data, you need to gather the following elements:
 - **Fonts** used for rendering text in synthetic images:
   - You can obtain these using the following scraper: [synthetic_text_gen](https://github.com/herobd/synthetic_text_gen/tree/master).
 - **Corpus** used for generating synthetic text:
-  - the processed Wikipedia corpus are available on [Zenodo](https://zenodo.org/records/15629573).
+  - the processed Wikipedia corpus are available on [Zenodo](https://zenodo.org/records/15629573?preview=1&token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjU2NWQxMGNlLWJjY2MtNGUzNi05YTFhLTEzYzA2M2EwOTc2YiIsImRhdGEiOnt9LCJyYW5kb20iOiJkZDJmODU5MDBiZjI0YTI5MDlhMTI5YjY5MzgxNDg3OCJ9.2sOKPH8soX3hjQhL2W0DXTGBioepcuMJzcCfbV4sBAKl47UQcV9zv-s_5fvMM26ibdZxX--0CVBNB4ZPDg5OgA).
 
 Once all necessary elements are collected, follow these steps to integrate synthetic data into your training pipeline:
 

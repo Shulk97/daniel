@@ -13,7 +13,7 @@ This repository includes:
 
 A demonstration video of DANIEL is available on [YouTube](https://youtu.be/ibJJrkYMl1U).
 
-Pretrained model weights can be downloaded [here](https://git.litislab.fr/).
+Pretrained model weights can be downloaded [here](https://zenodo.org/records/15633064).
 
 **This project is licensed under a custom Research Usage Only (RUO) license. Please refer to the license file LICENSE for more details.**
 
@@ -47,7 +47,7 @@ pip3 install .
 
 ### Required Files
 
-Certain files are necessary for running DANIEL and can be downloaded from Zenodo:
+Certain files are necessary for running DANIEL and can be downloaded from [Zenodo](https://zenodo.org/records/15607305).:
 - **Tokenizer**: The folder `tokenizer-daniel` should be placed in `basic/subwords`.
 - **Substitution Dictionary**: `replace_dict.pkl`, which contains substitution candidates for each subword during teacher forcing. Place this file in `basic/subwords`.
 
@@ -123,7 +123,7 @@ To leverage synthetic data, you need to gather the following elements:
 - **Fonts** used for rendering text in synthetic images:
   - You can obtain these using the following scraper: [synthetic_text_gen](https://github.com/herobd/synthetic_text_gen/tree/master).
 - **Corpus** used for generating synthetic text:
-  - the processed Wikipedia corpus are available on Zenodo.
+  - the processed Wikipedia corpus are available on [Zenodo](https://zenodo.org/records/15629573).
 
 Once all necessary elements are collected, follow these steps to integrate synthetic data into your training pipeline:
 
@@ -131,8 +131,8 @@ Once all necessary elements are collected, follow these steps to integrate synth
    `OCR/document_OCR/daniel/custom_dataset/daniel_custom_dataset_custom_synth_fitting.py`
    - This script applies transfer learning, starting from DANIEL trained on M-POPP (Strategy A) but fine-tuned exclusively on your custom synthetic data.
    - To make this script functional, you must generate your own synthetic dataset. You can find example implementations at:
-     - [`OCR/synth_doc/synth_doc_generation.py#L1179`](OCR/synth_doc/synth_doc_generation.py?ref_type=heads#L1179) – IAM dataset (simple synthetic data).
-     - [`OCR/synth_doc/synth_doc_generation.py#L824`](OCR/synth_doc/synth_doc_generation.py?ref_type=heads#L824) – M-POPP dataset (more complex data).
+     - [`OCR/synth_doc/synth_doc_generation.py#L1179`](OCR/document_OCR/daniel/synth_doc/synth_doc_generation.py?ref_type=heads#L1179) – IAM dataset (simple synthetic data).
+     - [`OCR/synth_doc/synth_doc_generation.py#L824`](OCR/document_OCR/daniel/synth_doc/synth_doc_generation.py?ref_type=heads#L824) – M-POPP dataset (more complex data).
    - Once your dataset is ready, add an entry for it in:
      [`OCR/ocr_dataset_manager.py#L664`](OCR/ocr_dataset_manager.py?ref_type=heads#L664).
    - Start training and monitor the Character Error Rate (CER). Aim for a training CER around 5% or lower. Experiment with different training durations to determine the optimal point for transitioning to the next step.

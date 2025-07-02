@@ -1,0 +1,183 @@
+LICENCE D’UTILISATION DE LOGICIEL
+Licence de recherche académique
+
+Entre
+
+L’Etablissement Université de Rouen.
+
+Ci-après désigné par « le Propriétaire »
+
+D’une part,
+
+ET
+
+L’UTILISATEUR
+
+D’autre part
+
+Ensemble désignés ci-après par « les Parties » ou individuellement par « la Partie ».
+
+IL A ETE CONVENU ET ARRETE CE QUI SUIT
+
+Préambule
+
+La présente licence de recherche est une licence non exclusive, libre, copyleft (autorisation de modification/diffusion à la condition que les futurs développements soient soumis à la même licence), pour les logiciels, spécialement conçue pour garantir la coopération avec la communauté universitaire ; elle s’étend au cas des logiciels installés sur des serveurs. Cette Licence s’adresse uniquement à un utilisateur académique pour un Usage de recherche exclusivement Académique. Cette licence s’est inspirée de la licence académique INRIA (licence d’utilisation n°5911).
+
+La présente licence est conçue spécifiquement pour garantir que, dans tous les cas, y compris dans le cadre de l’usage du logiciel sur un serveur, le code source modifié soit accessible à la communauté. Elle exige de l'opérateur d'un serveur qu'il fournisse le code source de la version modifiée exécutée sur ce serveur aux utilisateurs de ce serveur. Par conséquent, l'utilisation publique d'une version modifiée, sur un serveur accessible au public, donne accès au code source de la version modifiée.
+
+Cette licence de recherche exclue toute forme d’exploitation du Programme autre que l’Usage Académique. D’autres droits peuvent être acquis par le licencié en prenant contact avec le service mentionné à l’article 11 de la Licence.
+
+1. Définitions.
+
+« Licence » fait référence au présent contrat.
+
+« Droit d'auteur » désigne également les lois similaires au droit d'auteur qui s'appliquent à d'autres types d'œuvres.
+
+« Le Programme » désigne toute œuvre protégée par le droit d'auteur concédée sous licence en vertu de la présente Licence.
+
+« Usage Académique » désigne un usage à titre de recherche fait par un laboratoire de recherche public. L’objet de la recherche ne peut concerner que le logiciel visé par la Licence. L'Usage Académique exclut expressément toute activité lucrative ou commerciale, y compris, sans s'y limiter, la vente, la concession de licence, la fabrication ou le développement de produits commerciaux, l'utilisation dans le cadre de recherches financées par des entités autres que les universités ou organismes de recherche, la prestation de services et/ou de conseil, l'utilisation dans le cadre de recherches où une entité autre qu’université ou organisme de recherche obtient des droits sur les résultats de recherche ou tout autre avantage, et l'utilisation et/ou l’exploitation pour ou au nom d'une entité publique ou privée.
+
+2. Avertissement
+
+La Licence n’offre à l’UTILISATEUR qu’une garantie limitée et ne fait peser sur le Propriétaire qu’une responsabilité restreinte.
+
+A cet égard, l’attention de l’UTILISATEUR est attirée sur les risques associés au chargement et à l’utilisation du Programme étant donné sa spécificité, qui peut le rendre complexe à manipuler et qui le réserve donc à des professionnels avertis possédant des connaissances techniques approfondies. L’UTILISATEUR est donc invité à charger le Programme et à tester son adéquation à ses besoins dans des conditions permettant d’assurer la sécurité de ses systèmes et/ou de ses données et, plus généralement, à les utiliser et les exploiter dans les mêmes conditions de sécurité.
+
+3. Objet
+
+La Licence a pour objet de définir les modalités et conditions dans lesquelles le Propriétaire concède à titre gracieux à l’UTILISATEUR, un droit d’utilisation du Programme pour un Usage Académique.
+
+4. Propriété
+
+L’UTILISATEUR respectera la propriété intellectuelle, industrielle et commerciale existante du Propriétaire sur le Programme.
+
+5. Conditions d’utilisation
+
+Le Propriétaire accorde à l’UTILISATEUR un droit strictement personnel, non exclusif, ne pouvant être ni transféré, ni cédé, d’utiliser le Programme uniquement à des fins d’Usage Académique. Ce droit d’utilisation n’est accordé que pour les ordinateurs et serveurs du parc informatique de l’UTILISATEUR et seulement pendant la durée de la Licence. La Licence n’entraine transfert d’aucun droit de propriété au profit de l’UTILISATEUR.
+
+Le droit d’utilisation conféré par la Licence consiste exhaustivement en la mise en application du Programme par l’UTILISATEUR et pour son compte exclusif.
+
+L’UTILISATEUR ne pourra en aucun cas transférer tout ou partie de la Licence à ses sociétés affiliées quelles qu’elles soient, et notamment, mais non exclusivement à des succursales, filiales ou sociétés mères. Si les sociétés affiliées de l’UTILISATEUR souhaitent bénéficier d’une licence sur le Programme, l’autorisation de les utiliser ne pourra leur être donnée que par contrat séparé.
+
+L’UTILISATEUR s’engage à ne pas commercialiser, louer, distribuer, ni transférer tout ou partie du Programme.
+
+L’UTILISATEUR s’engage à ne pas effectuer de prestations de services, directes ou induites, impliquant l’utilisation du Programme.
+
+L’UTILISATEUR s’engage à ne pas désassembler, décompiler, ni analyser au moyen d’un quelconque procédé de rétroconception que ce soit, tout ou partie du Programme, sous réserve de l’application de l’article L 122-6-1 du Code de la Propriété Intellectuelle, pour un usage autre qu’un Usage Académique.
+L’UTILISATEUR s’engage à ne pas modifier tout ou partie du Programme. De même, il s’engage à ne pas intégrer tout ou partie du Programme dans un ou plusieurs logiciels composés ou dérivés pour un usage autre qu’un Usage Académique.
+
+L’UTILISATEUR s’engage, sauf accord préalable écrit du Propriétaire, à ne déposer aucun brevet portant sur le Programme, ni aucun brevet qui aurait pour effet de restreindre ou de conditionner l’utilisation du Programme par autrui.
+
+L’UTILISATEUR s’engage à ne pas utiliser le Programme d’une manière non conforme à la Licence.
+
+Toute utilisation, directe ou induite, du Programme par l’UTILISATEUR, autre que celle prévue par la Licence, et notamment son utilisation pour des prestations de services, son utilisation pour des besoins de fabrication, ou tout acte de commercialisation de son droit d’usage, sera précédé d’un contrat séparé entre les Parties.
+
+6. Durée – Entrée en vigueur
+
+L’acceptation par l’UTILISATEUR des termes de la Licence est réputée acquise du fait du premier des faits suivants :
+    • Le chargement du Programme par tout moyen, notamment par téléchargement à partir d’un serveur ou par chargement à partir d’un support physique ;
+    • Le premier exercice par l’UTILISATEUR de l’un quelconque des droits concédés par la Licence.
+
+Un exemplaire de la Licence, contenant notamment un avertissement relatif aux spécificités du Programme, à la restriction de garantie et à la limitation à un usage par des utilisateurs expérimentés a été mis à disposition de l’UTILISATEUR préalablement à son acceptation et l’UTILISATEUR reconnait en avoir pris connaissance.
+
+La Licence entre en vigueur à la date de son acceptation par l’UTILISATEUR. La Licence produira ses effets pendant toute la durée légale de protection des droits patrimoniaux portant sur le Programme.
+
+7. Publications
+
+Dans le cas de nouveaux développements l’UTILISATEUR s’engage en cas de communication privée à procéder à une publication publique dans un délai d’un (1) mois à compter de la date de la première communication privée.
+
+L’UTILISATEUR s’engage dans le cadre de ses communications/publications à respecter une obligation de citation.
+Pour les publications le format suivant devra être respecté : « Constum, T., Tranouez, P. & Paquet, T., DANIEL: a fast document attention network for information extraction and labelling of handwritten documents. IJDAR (2025). https://doi.org/10.1007/s10032-024-00511-9 »
+
+8. Responsabilité et garantie
+8.1 – Responsabilité
+
+Le Propriétaire ne sera en aucun cas responsable de tous dommages directs ou indirects, tel que préjudice commercial ou financier, perte de clientèle, perte d’image de marque, perte de bénéfice, perte de commande, trouble commercial quelconque, perte ou destruction (totale ou partielle) des données, action dirigée contre l’UTILISATEUR par un tiers, qui seraient en rapport ou résulteraient de l’utilisation ou de l’impossibilité d’utiliser le Programme.
+
+8.2 – Garantie
+
+Le Programme est un prototype de recherche livré en l’état à l’UTILISATEUR. L’UTILISATEUR reconnait que les caractéristiques techniques et les fonctionnalités du Programme correspondent à ses besoins. Hormis la mise à disposition du Programme, la Licence ne comporte aucune obligation pour le Propriétaire de fournir à l’UTILISATEUR une assistance, une maintenance ou encore une adaptation du Programme aux ordinateurs du parc de l’UTILISATEUR.
+
+Cependant, le Propriétaire reste libre de proposer de tels services, dont les termes et conditions seront alors déterminés dans un contrat séparé.
+
+L’UTILISATEUR reconnait que l’état actuel des connaissances scientifiques et techniques au moment de la mise en circulation du Programme ne permet pas d’en tester et d’en vérifier toutes les utilisations ni de détecter l’existence d’éventuels défauts. L’attention de l’UTILISATEUR a été attirée sur ce point sur les risques associés au chargement et à l’utilisation du Programme, qui sont réservés à des utilisateurs avertis.
+
+En particulier, le Propriétaire ne garantit pas que le Programme sont exempts d’erreurs, qu’ils fonctionneront sans interruption, qu’ils seront compatibles avec l’équipement et la configuration logicielle de l’UTILISATEUR, ni qu’ils rempliront les besoins de l’UTILISATEUR.
+
+Le Propriétaire ne garantit pas, de manière expresse ou tacite, que le Programme ne porte pas atteinte à un quelconque droit de propriété intellectuelle d’un tiers portant sur un brevet, un logiciel ou sur tout autre droit de propriété. Ainsi, le Propriétaire exclut toute garantie au profit de l’UTILISATEUR contre les actions en contrefaçon qui pourraient être diligentées au titre de l’utilisation du Programme.
+
+11. Correspondance
+
+Toute correspondance relative à la Licence ou à la possibilité d’une exploitation hors Usage Académique peut être envoyée par écrit soit à l’adresse électronique pi-nv@normandie-univ.fr soit à l’adresse du :
+
+Normandie Valorisation
+Esplanade de la Paix
+CS 14032 – 14032 CAEN Cedex 5
+
+12. Cession
+
+Les Parties déclarent que la Licence est conclue intuitu personae. En conséquence aucune des Parties n’est autorisée à céder ou transférer, en partie ou en totalité, à titre onéreux ou gracieux, les droits et obligations afférents à la Licence, sans l’accord écrit préalable de l’autre Partie.
+
+13. Résiliation et expiration du contrat
+
+Le propriétaire peut, si l’UTILISATEUR manque à l’exécution de ses obligations, résilier la Licence. Dans ce cas, le Propriétaire informera l’UTILISATEUR de son intention de résilier la Licence par l’envoi d’une lettre recommandée avec accusé de réception dans laquelle la nature du manquement sera indiquée.
+
+La résiliation prendra effet soit immédiatement lorsqu’il ne peut être remédié à ce manquement, soit, dans le cas contraire, dans un délai de trente (30) jours à compter de la réception de cette lettre si l’UTILISATEUR n’a pas porté remède à son manquement à la satisfaction du Propriétaire durant cette période.
+
+L’expiration de la Licence survient soit à son terme normal, soit après sa résiliation par l’une des Parties.
+
+Cette expiration, qu’elle qu’en soit la cause ne portera pas atteinte aux clauses relatives à la confidentialité, aux publications et à la propriété intellectuelle.
+
+A l’expiration de la Licence quelle qu’en soit la cause, l’UTILISATEUR s’engage à cesser d’utiliser le Programme. Il s’engage à détruire les fichiers licences et tous les supports originaux et les copies du Programme même partielles, en sa possession, y compris les éventuelles copies de sauvegarde, dans un délai maximum d’un (1) mois.
+
+L’UTILISATEUR établira, signera et transmettra au correspondant mentionné à l’article 11, un certificat attestant la destruction du Programme et de toute copie en sa possession.
+
+14. Force majeure
+
+Aucune des Parties ne sera responsable de la non-exécution totale ou partielle de ses obligations provoquées par un évènement constitutif de force majeure au sens de l’article 1218 du Code civil et reconnu comme tel par la jurisprudence des cours et tribunaux français.
+
+La Partie invoquant un évènement constitutif de force majeure devra en aviser l’autre Partie dans les trente (30) jours suivant la survenue de cet évènement. De plus, elle s’engage à déployer ses meilleurs efforts afin de limiter les conséquences de cet évènement.
+
+Les délais d’exécution seront prolongés pour une période déterminée d’un commun accord entre les Parties.
+
+Dans l’hypothèse ou un évènement de force majeure persisterait pendant plus de trente (30) jours à compter de la date à laquelle l’évènement de force majeure a été notifié à l’autre Partie, les Parties se rencontreront afin de déterminer les conditions en vertu desquelles la Licence sera maintenue ou résiliée.
+
+15. Nullité
+
+Si une ou plusieurs stipulations de la Licence sont tenues pour non valides ou déclarées telles en application d’une loi, d’un règlement ou à la suite d’une décision définitive rendue par une juridiction compétente, les autres stipulations de la Licence garderont toute leur force et leur portée.
+
+16. Titres
+
+En cas de difficulté d’interprétation entre l’un quelconque des titres figurant en-tête des articles ou clauses de la Licence et l’un quelconque de ces articles ou clauses, les titres seront déclarés inexistants.
+
+
+
+17. Renonciation
+
+Le fait qu’une des Parties n’ait pas exigé l’application d’une clause quelconque de la Licence ou ne se soit pas prévalu d’un manquement de l’autre Partie, que ce soit de façon permanente ou temporaire, ne pourra en aucun cas être considéré comme une renonciation aux droits de cette Partie découlant de la clause en question.
+
+18. Relation entre les Parties
+
+Les Parties sont des parties contractantes indépendantes. Les Parties déclarent que la Licence ne peut en aucun cas être interprétée ou considérée comme constituant un acte de société, un groupement doté de la personnalité morale, ni par ailleurs une société en participation ou une société de fait ou créée de fait. L’affection societatis, la recherche d’un partage de bénéfices et la contribution à des pertes sont formellement exclus.
+
+19. Intégralité
+
+La Licence complétée par les fichiers licences exprime l’intégralité des obligations des Parties.
+
+Elle annule et remplace en leur totalité, toutes propositions, promesses, engagements, discussions et écrits antérieurement échangés entre les Parties à ce même sujet.
+
+Elle complète tous accords, contrats et conventions précédemment signés entre les Parties, étant entendu qu’en cas de contradiction, les stipulations de la Licence prévaudront.
+
+20. Impossibilité partielle d’exécuter
+
+Si ou plusieurs des clauses de la Licence peuvent être mises en vigueur pour quelque cause que ce soit, les autres stipulations garderont néanmoins toute leur validité. Les Parties tenteront, au travers de négociations de bonne foi, d’adapter ou de remplacer la ou les clauses qui se seront avérées inapplicables. L’échec des Parties à arriver à un accord pour l’adaptation ou le remplacement des stipulations en cause n’affectera pas la validité de la Licence.
+
+21. Loi applicable et règlement des litiges
+
+La Licence est soumise à la loi française.
+
+Tout litige non résolu à l’amiable dans un délai de trente (30) jours, pourra être porté devant les juridictions françaises compétentes.
+
+22. Acceptation de la Licence
+
+L’accès (téléchargement ou autre), l’installation ou l’utilisation du Programme impliquent l’acceptation sans réserve de la Licence. La Licence est également applicable à toute mise à jour ultérieure ou toute nouvelle version du Programme.

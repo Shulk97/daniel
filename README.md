@@ -131,8 +131,8 @@ Once all necessary elements are collected, follow these steps to integrate synth
    `OCR/document_OCR/daniel/custom_dataset/daniel_custom_dataset_custom_synth_fitting.py`
    - This script applies transfer learning, starting from DANIEL trained on M-POPP (Strategy A) but fine-tuned exclusively on your custom synthetic data.
    - To make this script functional, you must generate your own synthetic dataset. You can find example implementations at:
-     - [`OCR/synth_doc/synth_doc_generation.py#L1179`](OCR/document_OCR/daniel/synth_doc/synth_doc_generation.py?ref_type=heads#L1179) – IAM dataset (simple synthetic data).
-     - [`OCR/synth_doc/synth_doc_generation.py#L824`](OCR/document_OCR/daniel/synth_doc/synth_doc_generation.py?ref_type=heads#L824) – M-POPP dataset (more complex data).
+     - [`OCR/document_OCR/daniel/synth_doc/synth_doc_generation.py#L1180`](OCR/document_OCR/daniel/synth_doc/synth_doc_generation.py?ref_type=heads#L1180) – IAM dataset (simple synthetic data).
+     - [`OCR/document_OCR/daniel/synth_doc/synth_doc_generation.py#L824`](OCR/document_OCR/daniel/synth_doc/synth_doc_generation.py?ref_type=heads#L824) – M-POPP dataset (more complex data).
    - Once your dataset is ready, add an entry for it in:
      [`OCR/ocr_dataset_manager.py#L664`](OCR/ocr_dataset_manager.py?ref_type=heads#L664).
    - Start training and monitor the Character Error Rate (CER). Aim for a training CER around 5% or lower. Experiment with different training durations to determine the optimal point for transitioning to the next step.

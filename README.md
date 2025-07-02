@@ -47,7 +47,7 @@ pip3 install .
 
 ### Required Files
 
-Certain files are necessary for running DANIEL and can be downloaded from [Zenodo](https://zenodo.org/records/15607305).:
+Certain files are necessary for running DANIEL and can be downloaded from [Zenodo](https://zenodo.org/records/15607305):
 - **Tokenizer**: The folder `tokenizer-daniel` should be placed in `basic/subwords`.
 - **Substitution Dictionary**: `replace_dict.pkl`, which contains substitution candidates for each subword during teacher forcing. Place this file in `basic/subwords`.
 

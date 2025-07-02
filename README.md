@@ -11,7 +11,10 @@ This repository includes:
 - The training and inference code.
 - A synthetic data generator.
 
-A demonstration video of DANIEL is available on [YouTube](https://youtu.be/ibJJrkYMl1U).
+A demonstration video of DANIEL is available on Youtube:
+
+
+[![Youtube](video-image.png)](https://www.youtube.com/watch?v=ibJJrkYMl1U)
 
 Pretrained model weights can be downloaded [here](https://zenodo.org/records/15633064).
 

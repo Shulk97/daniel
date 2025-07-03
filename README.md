@@ -76,7 +76,7 @@ IAM dataset files can be found [here](https://fki.tic.heia-fr.ch/databases/downl
 
 ### Step 2: Download Model Weights
 
-Pretrained weights can be downloaded from the provided link. Extract them into the `outputs` folder:
+Pretrained weights can be downloaded from the provided [link](https://zenodo.org/records/15633064?preview=1&token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImY1MjdmMDU4LTcwMmItNDk3NC1iZTE4LWM4OWE4MTRiZGY5OCIsImRhdGEiOnt9LCJyYW5kb20iOiIwNDc5NmVjMWUxZThhOWFjMDUzZDVkYzFkMTdmZjdhOCJ9.Ic3dgCCtpEmwmoX3h-W_TEImtK1algZ3PqAMgRxl3xFco1JFjH8PDkRhC_LGcAZdBVoRR6gEIs9sz8X7RtI_xg). Extract them into the `outputs` folder:
 ```bash
 outputs/daniel_datasetname_strategy_X
 ```

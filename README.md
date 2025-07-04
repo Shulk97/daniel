@@ -126,7 +126,7 @@ To leverage synthetic data, you need to gather the following elements:
 - **Fonts** used for rendering text in synthetic images:
   - You can obtain these using the following scraper: [synthetic_text_gen](https://github.com/herobd/synthetic_text_gen/tree/master).
 - **Corpus** used for generating synthetic text:
-  - the processed Wikipedia corpus are available on [Zenodo](https://zenodo.org/records/15629573?preview=1&token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjU2NWQxMGNlLWJjY2MtNGUzNi05YTFhLTEzYzA2M2EwOTc2YiIsImRhdGEiOnt9LCJyYW5kb20iOiJkZDJmODU5MDBiZjI0YTI5MDlhMTI5YjY5MzgxNDg3OCJ9.2sOKPH8soX3hjQhL2W0DXTGBioepcuMJzcCfbV4sBAKl47UQcV9zv-s_5fvMM26ibdZxX--0CVBNB4ZPDg5OgA).
+  - the processed Wikipedia corpus are available on [Zenodo](https://zenodo.org/records/15629573).
 
 Once all necessary elements are collected, follow these steps to integrate synthetic data into your training pipeline:
 

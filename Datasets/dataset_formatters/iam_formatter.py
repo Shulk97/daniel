@@ -21,6 +21,12 @@ SEM_MATCHING_TOKENS = {
     # '':''
 }
 
+GW_MATCHING_TOKENS = {
+    "ⓟ": "Ⓟ",  # page
+    "ⓡ": "Ⓡ",  # marriage license (can include the tokens ⓝ, ⓑ and ⓘ)
+    '':''
+}
+
 MULTI_MATCHING_TOKENS_STR = {
     'Ouverture': "ⓞ",  # opening
     'Corps de texte': "ⓒ",  # body

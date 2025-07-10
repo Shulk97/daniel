@@ -16,7 +16,7 @@ A demonstration video of DANIEL is available on Youtube:
 
 [![Youtube](video-image.png)](https://www.youtube.com/watch?v=ibJJrkYMl1U)
 
-Pretrained model weights can be downloaded [here](https://zenodo.org/records/15633064?preview=1&token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImY1MjdmMDU4LTcwMmItNDk3NC1iZTE4LWM4OWE4MTRiZGY5OCIsImRhdGEiOnt9LCJyYW5kb20iOiIwNDc5NmVjMWUxZThhOWFjMDUzZDVkYzFkMTdmZjdhOCJ9.Ic3dgCCtpEmwmoX3h-W_TEImtK1algZ3PqAMgRxl3xFco1JFjH8PDkRhC_LGcAZdBVoRR6gEIs9sz8X7RtI_xg).
+Pretrained model weights can be downloaded [here](https://zenodo.org/records/15846534).
 
 **This project is licensed under a custom Research Usage Only (RUO) license. Please refer to the license file LICENSE for more details.**
 
@@ -50,7 +50,7 @@ pip3 install .
 
 ### Required Files
 
-Certain files are necessary for running DANIEL and can be downloaded from [Zenodo](https://zenodo.org/records/15607305?preview=1&token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjJmOTA0YjE5LWU3MWMtNDNhNy04MWVmLWJmMGY3ZjMwNDA0NiIsImRhdGEiOnt9LCJyYW5kb20iOiIxYzUxZmIxZTRmOTM4NmQyYmZiZTU3MzMxN2Y3ZTMzYyJ9.KMsyt-9Z09wpCZkRO0uGzR3paazTTYceG2-S-PmJw_l2mKRRcxRh_xS4I6jjEVduaTJyvjHg4rIn0F41TJKISQ):
+Certain files are necessary for running DANIEL and can be downloaded from [Zenodo](https://zenodo.org/records/15846599):
 - **Tokenizer**: The folder `tokenizer-daniel` should be placed in `basic/subwords`.
 - **Substitution Dictionary**: `replace_dict.pkl`, which contains substitution candidates for each subword during teacher forcing. Place this file in `basic/subwords`.
 
@@ -76,7 +76,7 @@ IAM dataset files can be found [here](https://fki.tic.heia-fr.ch/databases/downl
 
 ### Step 2: Download Model Weights
 
-Pretrained weights can be downloaded from the provided [link](https://zenodo.org/records/15633064?preview=1&token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImY1MjdmMDU4LTcwMmItNDk3NC1iZTE4LWM4OWE4MTRiZGY5OCIsImRhdGEiOnt9LCJyYW5kb20iOiIwNDc5NmVjMWUxZThhOWFjMDUzZDVkYzFkMTdmZjdhOCJ9.Ic3dgCCtpEmwmoX3h-W_TEImtK1algZ3PqAMgRxl3xFco1JFjH8PDkRhC_LGcAZdBVoRR6gEIs9sz8X7RtI_xg). Extract them into the `outputs` folder:
+Pretrained weights can be downloaded from the provided [link](https://zenodo.org/records/15846534). Extract them into the `outputs` folder:
 ```bash
 outputs/daniel_datasetname_strategy_X
 ```
@@ -87,9 +87,9 @@ Run the appropriate script based on the dataset and strategy:
 ```bash
 python3 OCR/document_OCR/daniel/<dataset>/<task>/daniel_<dataset>_strategy_<X>.py
 ```
-For example, to evaluate a model on **M-POPP NER** with strategy C:
+For example, to evaluate a model on **RIMES** with strategy C:
 ```bash
-python3 OCR/document_OCR/daniel/mpopp/ner/daniel_mpopp_ner_strategy_C.py
+python3 OCR/document_OCR/daniel/rimes/ner/daniel_rimes_strategy_C.py
 ```
 
 ## Training DANIEL on Your Own Dataset
@@ -98,7 +98,7 @@ To adapt DANIEL to a new dataset, use the fine-tuning script:
 ```bash
 python3 OCR/document_OCR/daniel/custom_dataset/daniel_custom_dataset_fine_tuning.py
 ```
-This script performs transfer learning from a DANIEL model trained on M-POPP with strategy A.
+This script performs transfer learning from a DANIEL model trained on IAM NER with strategy A.
 You should therefore download the corresponding weights.
 
 ### Dataset Requirements
@@ -164,23 +164,10 @@ When performing transfer learning, choosing the right pre-trained weights is cru
    - **Training Data:** Trained on all synthetic datasets and real datasets *except* M-POPP.
    - **Best Use Case:** Suitable when only a small amount of annotated data is available in the target dataset.
    - **Attention Granularity:** 32-pixel vertical granularity, meaning the encoder’s output feature map has a height of **H/32** (where **H** is the input image height).
-
-#### 2. **`daniel_mpopp_ner_strategy_A`**
-   - **Training Data:** Trained on all synthetic datasets and real datasets, *including* M-POPP.
-   - **Best Use Case:** Recommended when limited annotated data is available in the target dataset, especially for large images with small text.
-   - **Attention Granularity:** 16-pixel vertical granularity (**H/16**), providing finer attention than the previous model.
-   - **Performance Consideration:** Due to the finer granularity, this model is slower than `daniel_iam_ner_strategy_A_custom_split` but better suited for handling detailed text in large images.
-
-#### 3. **`daniel_multi_synth`**
+#### 2. **`daniel_multi_synth`**
    - **Training Data:** Trained exclusively on synthetic datasets *excluding* M-POPP, with no real data. Used to initialize fine-tuning strategies **A and B** for the **IAM/IAM NER, RIMES 2009, and READ 2016** datasets.
    - **Best Use Case:** Suitable for modern document datasets with several thousand annotated pages.
    - **Attention Granularity:** 32-pixel vertical granularity (**H/32**).
-
-#### 4. **`daniel_multi_synth_mpopp`**
-   - **Training Data:** Trained exclusively on synthetic datasets *including* M-POPP, with no real data. Used to initialize fine-tuning strategies **A and B** for **M-POPP/M-POPP NER** datasets.
-   - **Best Use Case:** Suitable for modern document datasets with several thousand annotated pages with a small text size compared to the size of the image.
-   - **Attention Granularity:** 16-pixel vertical granularity (**H/16**).
-   - **Performance Consideration:** Like `daniel_mpopp_ner_strategy_A`, this model has a finer attention granularity, making it slower but more effective for large images with small text.
 
 ## Generating Synthetic Data Offline
 

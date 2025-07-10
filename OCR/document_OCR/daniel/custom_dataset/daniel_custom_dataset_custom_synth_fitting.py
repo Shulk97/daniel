@@ -70,8 +70,8 @@ def main(mode):
         "use_checkpointing": True, # use gradient checkpointing to consume less GPU memory
         "transfer_learning": {
             # model_name: [state_dict_name, checkpoint_path, learnable, strict]
-            "encoder": ["encoder", "outputs/daniel_mpopp_strategy_A/checkpoints/best-EXOPOPP_NER_164.pt", True, True],
-            "decoder": ["decoder", "outputs/daniel_mpopp_strategy_A/checkpoints/best-EXOPOPP_NER_164.pt", True, False],
+            "encoder": ["encoder", "outputs/daniel_iam_ner_strategy_A_custom_split/checkpoints/best-IAM_NER_165.pt", True, True],
+            "decoder": ["decoder", "outputs/daniel_iam_ner_strategy_A_custom_split/checkpoints/best-IAM_NER_165.pt", True, False],
         }
     }
 

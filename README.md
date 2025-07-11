@@ -204,6 +204,8 @@ The project is organized into the following directories:
 All training parameters are explained in the comments of the files located in the `conf` and `OCR/document_OCR/daniel/custom_dataset` folders.
 
 ## Citation
+
+If you publish material based on this code, we request you to include a reference to the paper: 
 ```bibtex
 @article{Constum2025,
   author = {Constum, Thomas and Tranouez, Pierrick and Paquet, Thierry},

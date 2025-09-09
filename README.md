@@ -64,15 +64,23 @@ DANIEL has been evaluated for:
 
 Formatted datasets should be placed in `Datasets/formatted`. The label format follows the DAN format.
 
-For **READ 2016** and **RIMES 2009**, follow the dataset preparation guide in the [DAN repository](https://github.com/FactoDeepLearning/DAN).
+- For **READ 2016** and **RIMES 2009**, follow the dataset preparation guide in the [DAN repository](https://github.com/FactoDeepLearning/DAN).
 
-For **M-POPP/M-POPP NER**, formatted labels are available on [Zenodo](https://zenodo.org/records/12737132).
+- For **M-POPP/M-POPP NER**, formatted labels are available on [Zenodo](https://zenodo.org/records/12737132).
 
-For **IAM**, use the formatting script:
+- For **IAM**, dataset files can be found [here](https://fki.tic.heia-fr.ch/databases/download-the-iam-handwriting-database). You should use the formatting script:
 ```bash
 python3 Datasets/dataset_formatters/iam_formatter.py
 ```
-IAM dataset files can be found [here](https://fki.tic.heia-fr.ch/databases/download-the-iam-handwriting-database).
+
+Each dataset should be placed in `Datasets/formatted/{dataset_name}_{dataset_level}{dataset_variant}`.
+These three parameters are defined in the main script of each experiment such as `OCR/document_OCR/daniel/READ/daniel_read_strategy_B.py`.
+The dataset folders follow this structure:
+- train: the images from the train split
+- valid: the images from the validation split
+- test: the images from the test split
+- labels.pkl: the file containing the labels of the dataset
+
 
 ### Step 2: Download Model Weights
 

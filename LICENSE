@@ -1,183 +1,186 @@
-LICENCE D’UTILISATION DE LOGICIEL
-Licence de recherche académique
+SOFTWARE LICENSE AGREEMENT
 
-Entre
+Academic Research License
 
-L’Etablissement Université de Rouen.
+Between
 
-Ci-après désigné par « le Propriétaire »
+The University of Rouen (L’Etablissement Université de Rouen).
 
-D’une part,
+Hereinafter referred to as"the Owner"
 
-ET
+Of the one part,
 
-L’UTILISATEUR
+AND
 
-D’autre part
+THE USER
 
-Ensemble désignés ci-après par « les Parties » ou individuellement par « la Partie ».
+Of the other part
 
-IL A ETE CONVENU ET ARRETE CE QUI SUIT
+Collectively referred to as "the Parties" or individually as "the Party."
 
-Préambule
+IT HAS BEEN AGREED AS FOLLOWS:
 
-La présente licence de recherche est une licence non exclusive, libre, copyleft (autorisation de modification/diffusion à la condition que les futurs développements soient soumis à la même licence), pour les logiciels, spécialement conçue pour garantir la coopération avec la communauté universitaire ; elle s’étend au cas des logiciels installés sur des serveurs. Cette Licence s’adresse uniquement à un utilisateur académique pour un Usage de recherche exclusivement Académique. Cette licence s’est inspirée de la licence académique INRIA (licence d’utilisation n°5911).
+Preamble
 
-La présente licence est conçue spécifiquement pour garantir que, dans tous les cas, y compris dans le cadre de l’usage du logiciel sur un serveur, le code source modifié soit accessible à la communauté. Elle exige de l'opérateur d'un serveur qu'il fournisse le code source de la version modifiée exécutée sur ce serveur aux utilisateurs de ce serveur. Par conséquent, l'utilisation publique d'une version modifiée, sur un serveur accessible au public, donne accès au code source de la version modifiée.
+The present research license is a non-exclusive, free, copyleft license (authorization for modification/distribution provided that future developments are subject to the same license) for software, specifically designed to ensure cooperation with the university community; it extends to software installed on servers. This License is intended solely for an academic user for exclusively Academic Research Use. This license is inspired by the INRIA academic license (license no. 5911).
 
-Cette licence de recherche exclue toute forme d’exploitation du Programme autre que l’Usage Académique. D’autres droits peuvent être acquis par le licencié en prenant contact avec le service mentionné à l’article 11 de la Licence.
+The present license is specifically designed to ensure that, in all cases, including when the software is used on a server, the modified source code is accessible to the community. It requires the operator of a server to provide the source code of the modified version running on that server to the users of that server. Consequently, the public use of a modified version on a publicly accessible server provides access to the source code of the modified version.
 
-1. Définitions.
+This research license excludes any form of exploitation of the Program other than Academic Use. Other rights may be acquired by the licensee by contacting the department mentioned in Article 11 of the License.
 
-« Licence » fait référence au présent contrat.
+1. Definitions
 
-« Droit d'auteur » désigne également les lois similaires au droit d'auteur qui s'appliquent à d'autres types d'œuvres.
+"License" refers to the present agreement.
 
-« Le Programme » désigne toute œuvre protégée par le droit d'auteur concédée sous licence en vertu de la présente Licence.
+"Copyright" also refers to copyright-like laws that apply to other types of works.
 
-« Usage Académique » désigne un usage à titre de recherche fait par un laboratoire de recherche public. L’objet de la recherche ne peut concerner que le logiciel visé par la Licence. L'Usage Académique exclut expressément toute activité lucrative ou commerciale, y compris, sans s'y limiter, la vente, la concession de licence, la fabrication ou le développement de produits commerciaux, l'utilisation dans le cadre de recherches financées par des entités autres que les universités ou organismes de recherche, la prestation de services et/ou de conseil, l'utilisation dans le cadre de recherches où une entité autre qu’université ou organisme de recherche obtient des droits sur les résultats de recherche ou tout autre avantage, et l'utilisation et/ou l’exploitation pour ou au nom d'une entité publique ou privée.
+"The Program" refers to any work protected by copyright licensed under the present License.
 
-2. Avertissement
+"Academic Use" refers to research use performed by a public research laboratory. The object of the research may only concern the software covered by the License. Academic Use expressly excludes any lucrative or commercial activity, including, but not limited to, sale, licensing, manufacturing, or development of commercial products, use in the context of research funded by entities other than universities or research organizations, the provision of services and/or consulting, use in the context of research where an entity other than a university or research organization obtains rights to the research results or any other advantage, and use and/or exploitation for or on behalf of a public or private entity.
 
-La Licence n’offre à l’UTILISATEUR qu’une garantie limitée et ne fait peser sur le Propriétaire qu’une responsabilité restreinte.
+2. Disclaimer
 
-A cet égard, l’attention de l’UTILISATEUR est attirée sur les risques associés au chargement et à l’utilisation du Programme étant donné sa spécificité, qui peut le rendre complexe à manipuler et qui le réserve donc à des professionnels avertis possédant des connaissances techniques approfondies. L’UTILISATEUR est donc invité à charger le Programme et à tester son adéquation à ses besoins dans des conditions permettant d’assurer la sécurité de ses systèmes et/ou de ses données et, plus généralement, à les utiliser et les exploiter dans les mêmes conditions de sécurité.
+The License offers the USER only a limited warranty and imposes only restricted liability on the Owner.
 
-3. Objet
+In this regard, the USER's attention is drawn to the risks associated with loading and using the Program given its specificity, which may make it complex to handle and which therefore reserves it for experienced professionals with in-depth technical knowledge. The USER is therefore invited to load the Program and test its suitability for their needs under conditions that ensure the security of their systems and/or data and, more generally, to use and exploit them under the same security conditions.
 
-La Licence a pour objet de définir les modalités et conditions dans lesquelles le Propriétaire concède à titre gracieux à l’UTILISATEUR, un droit d’utilisation du Programme pour un Usage Académique.
+3. Purpose
 
-4. Propriété
+The purpose of the License is to define the terms and conditions under which the Owner grants, free of charge, to the USER a right to use the Program for Academic Use.
 
-L’UTILISATEUR respectera la propriété intellectuelle, industrielle et commerciale existante du Propriétaire sur le Programme.
+4. Ownership
 
-5. Conditions d’utilisation
+The USER shall respect the Owner's existing intellectual, industrial, and commercial property rights over the Program.
 
-Le Propriétaire accorde à l’UTILISATEUR un droit strictement personnel, non exclusif, ne pouvant être ni transféré, ni cédé, d’utiliser le Programme uniquement à des fins d’Usage Académique. Ce droit d’utilisation n’est accordé que pour les ordinateurs et serveurs du parc informatique de l’UTILISATEUR et seulement pendant la durée de la Licence. La Licence n’entraine transfert d’aucun droit de propriété au profit de l’UTILISATEUR.
+5. Terms of Use
 
-Le droit d’utilisation conféré par la Licence consiste exhaustivement en la mise en application du Programme par l’UTILISATEUR et pour son compte exclusif.
+The Owner grants the USER a strictly personal, non-exclusive, non-transferable, and non-assignable right to use the Program solely for Academic Use purposes. This right of use is granted only for computers and servers within the USER's IT infrastructure and only for the duration of the License. The License does not involve the transfer of any property rights to the USER.
 
-L’UTILISATEUR ne pourra en aucun cas transférer tout ou partie de la Licence à ses sociétés affiliées quelles qu’elles soient, et notamment, mais non exclusivement à des succursales, filiales ou sociétés mères. Si les sociétés affiliées de l’UTILISATEUR souhaitent bénéficier d’une licence sur le Programme, l’autorisation de les utiliser ne pourra leur être donnée que par contrat séparé.
+The right of use conferred by the License consists exhaustively of the application of the Program by the USER and for their exclusive account.
 
-L’UTILISATEUR s’engage à ne pas commercialiser, louer, distribuer, ni transférer tout ou partie du Programme.
+The USER may under no circumstances transfer all or part of the License to their affiliated companies of any kind, and notably, but not exclusively, to branches, subsidiaries, or parent companies. If the USER's affiliates wish to benefit from a license for the Program, authorization to use it may only be granted through a separate agreement.
 
-L’UTILISATEUR s’engage à ne pas effectuer de prestations de services, directes ou induites, impliquant l’utilisation du Programme.
+The USER undertakes not to market, lease, distribute, or transfer all or part of the Program.
 
-L’UTILISATEUR s’engage à ne pas désassembler, décompiler, ni analyser au moyen d’un quelconque procédé de rétroconception que ce soit, tout ou partie du Programme, sous réserve de l’application de l’article L 122-6-1 du Code de la Propriété Intellectuelle, pour un usage autre qu’un Usage Académique.
-L’UTILISATEUR s’engage à ne pas modifier tout ou partie du Programme. De même, il s’engage à ne pas intégrer tout ou partie du Programme dans un ou plusieurs logiciels composés ou dérivés pour un usage autre qu’un Usage Académique.
+The USER undertakes not to provide any services, direct or indirect, involving the use of the Program.
 
-L’UTILISATEUR s’engage, sauf accord préalable écrit du Propriétaire, à ne déposer aucun brevet portant sur le Programme, ni aucun brevet qui aurait pour effet de restreindre ou de conditionner l’utilisation du Programme par autrui.
+The USER undertakes not to disassemble, decompile, or analyze by any reverse engineering process whatsoever all or part of the Program, subject to the application of Article L 122-6-1 of the French Intellectual Property Code, for any use other than Academic Use.
 
-L’UTILISATEUR s’engage à ne pas utiliser le Programme d’une manière non conforme à la Licence.
+The USER undertakes not to modify all or part of the Program. Likewise, they undertake not to integrate all or part of the Program into one or more composite or derivative software programs for any use other than Academic Use.
 
-Toute utilisation, directe ou induite, du Programme par l’UTILISATEUR, autre que celle prévue par la Licence, et notamment son utilisation pour des prestations de services, son utilisation pour des besoins de fabrication, ou tout acte de commercialisation de son droit d’usage, sera précédé d’un contrat séparé entre les Parties.
+The USER undertakes, unless prior written agreement is obtained from the Owner, not to file any patent relating to the Program, nor any patent that would have the effect of restricting or conditioning the use of the Program by others.
 
-6. Durée – Entrée en vigueur
+The USER undertakes not to use the Program in a manner inconsistent with the License.
 
-L’acceptation par l’UTILISATEUR des termes de la Licence est réputée acquise du fait du premier des faits suivants :
-    • Le chargement du Programme par tout moyen, notamment par téléchargement à partir d’un serveur ou par chargement à partir d’un support physique ;
-    • Le premier exercice par l’UTILISATEUR de l’un quelconque des droits concédés par la Licence.
+Any use, direct or indirect, of the Program by the USER other than that provided for by the License, and notably its use for the provision of services, its use for manufacturing needs, or any act of commercialization of their right of use, shall be preceded by a separate agreement between the Parties.
 
-Un exemplaire de la Licence, contenant notamment un avertissement relatif aux spécificités du Programme, à la restriction de garantie et à la limitation à un usage par des utilisateurs expérimentés a été mis à disposition de l’UTILISATEUR préalablement à son acceptation et l’UTILISATEUR reconnait en avoir pris connaissance.
+6. Duration – Entry into Force
 
-La Licence entre en vigueur à la date de son acceptation par l’UTILISATEUR. La Licence produira ses effets pendant toute la durée légale de protection des droits patrimoniaux portant sur le Programme.
+Acceptance by the USER of the terms of the License is deemed acquired by the first of the following events:
+
+ - The loading of the Program by any means, notably by downloading from a server or by loading from physical media;
+ - The first exercise by the USER of any of the rights granted by the License.
+
+A copy of the License, notably containing a warning regarding the specificities of the Program, the warranty restriction, and the limitation to use by experienced users, was made available to the USER prior to their acceptance, and the USER acknowledges having read it.
+
+The License enters into force on the date of its acceptance by the USER. The License shall remain in effect for the entire legal duration of protection of the economic rights relating to the Program.
 
 7. Publications
 
-Dans le cas de nouveaux développements l’UTILISATEUR s’engage en cas de communication privée à procéder à une publication publique dans un délai d’un (1) mois à compter de la date de la première communication privée.
+In the case of new developments, the USER undertakes, in the event of private communication, to proceed with a public publication within one (1) month from the date of the first private communication.
 
-L’UTILISATEUR s’engage dans le cadre de ses communications/publications à respecter une obligation de citation.
-Pour les publications le format suivant devra être respecté : « Constum, T., Tranouez, P. & Paquet, T., DANIEL: a fast document attention network for information extraction and labelling of handwritten documents. IJDAR (2025). https://doi.org/10.1007/s10032-024-00511-9 »
+The USER undertakes, within the framework of their communications/publications, to respect a citation obligation. For publications, the following format must be respected:
+"Constum, T., Tranouez, P. & Paquet, T., DANIEL: a fast document attention network for information extraction and labelling of handwritten documents. IJDAR (2025). [https://doi.org/10.1007/s10032-024-00511-9](https://doi.org/10.1007/s10032-024-00511-9)"
 
-8. Responsabilité et garantie
-8.1 – Responsabilité
+8. Liability and Warranty
 
-Le Propriétaire ne sera en aucun cas responsable de tous dommages directs ou indirects, tel que préjudice commercial ou financier, perte de clientèle, perte d’image de marque, perte de bénéfice, perte de commande, trouble commercial quelconque, perte ou destruction (totale ou partielle) des données, action dirigée contre l’UTILISATEUR par un tiers, qui seraient en rapport ou résulteraient de l’utilisation ou de l’impossibilité d’utiliser le Programme.
+8.1 – Liability
 
-8.2 – Garantie
+The Owner shall in no case be liable for any direct or indirect damage, such as commercial or financial prejudice, loss of clientele, loss of brand image, loss of profit, loss of order, any commercial disturbance, loss or destruction (total or partial) of data, or action brought against the USER by a third party, which may be related to or result from the use or inability to use the Program.
 
-Le Programme est un prototype de recherche livré en l’état à l’UTILISATEUR. L’UTILISATEUR reconnait que les caractéristiques techniques et les fonctionnalités du Programme correspondent à ses besoins. Hormis la mise à disposition du Programme, la Licence ne comporte aucune obligation pour le Propriétaire de fournir à l’UTILISATEUR une assistance, une maintenance ou encore une adaptation du Programme aux ordinateurs du parc de l’UTILISATEUR.
+ 8.2 – Warranty
 
-Cependant, le Propriétaire reste libre de proposer de tels services, dont les termes et conditions seront alors déterminés dans un contrat séparé.
+The Program is a research prototype delivered "as is" to the USER. The USER acknowledges that the technical characteristics and functionalities of the Program correspond to their needs. Apart from making the Program available, the License does not involve any obligation for the Owner to provide the USER with assistance, maintenance, or adaptation of the Program to the computers in the USER's infrastructure.
 
-L’UTILISATEUR reconnait que l’état actuel des connaissances scientifiques et techniques au moment de la mise en circulation du Programme ne permet pas d’en tester et d’en vérifier toutes les utilisations ni de détecter l’existence d’éventuels défauts. L’attention de l’UTILISATEUR a été attirée sur ce point sur les risques associés au chargement et à l’utilisation du Programme, qui sont réservés à des utilisateurs avertis.
+However, the Owner remains free to offer such services, the terms and conditions of which will then be determined in a separate agreement.
 
-En particulier, le Propriétaire ne garantit pas que le Programme sont exempts d’erreurs, qu’ils fonctionneront sans interruption, qu’ils seront compatibles avec l’équipement et la configuration logicielle de l’UTILISATEUR, ni qu’ils rempliront les besoins de l’UTILISATEUR.
+The USER acknowledges that the current state of scientific and technical knowledge at the time the Program is released does not allow for testing and verifying all uses nor for detecting the existence of potential defects. The USER's attention has been drawn on this point to the risks associated with loading and using the Program, which are reserved for experienced users.
 
-Le Propriétaire ne garantit pas, de manière expresse ou tacite, que le Programme ne porte pas atteinte à un quelconque droit de propriété intellectuelle d’un tiers portant sur un brevet, un logiciel ou sur tout autre droit de propriété. Ainsi, le Propriétaire exclut toute garantie au profit de l’UTILISATEUR contre les actions en contrefaçon qui pourraient être diligentées au titre de l’utilisation du Programme.
+In particular, the Owner does not guarantee that the Program is error-free, that it will function without interruption, that it will be compatible with the USER's equipment and software configuration, or that it will meet the USER's needs.
 
-11. Correspondance
+The Owner does not guarantee, expressly or tacitly, that the Program does not infringe any third-party intellectual property right relating to a patent, software, or any other property right. Thus, the Owner excludes any warranty for the benefit of the USER against infringement actions that may be brought regarding the use of the Program.
 
-Toute correspondance relative à la Licence ou à la possibilité d’une exploitation hors Usage Académique peut être envoyée par écrit soit à l’adresse électronique pi-nv@normandie-univ.fr soit à l’adresse du :
+11. Correspondence
+
+Any correspondence relating to the License or the possibility of exploitation outside of Academic Use may be sent in writing either to the email address pi-nv@normandie-univ.fr or to the address of:
 
 Normandie Valorisation
 Esplanade de la Paix
 CS 14032 – 14032 CAEN Cedex 5
+FRANCE
 
-12. Cession
+12. Assignment
 
-Les Parties déclarent que la Licence est conclue intuitu personae. En conséquence aucune des Parties n’est autorisée à céder ou transférer, en partie ou en totalité, à titre onéreux ou gracieux, les droits et obligations afférents à la Licence, sans l’accord écrit préalable de l’autre Partie.
+The Parties declare that the License is concluded intuitu personae. Consequently, neither Party is authorized to assign or transfer, in whole or in part, whether for a fee or free of charge, the rights and obligations pertaining to the License, without the prior written agreement of the other Party.
 
-13. Résiliation et expiration du contrat
+13. Termination and Expiration of the Agreement
 
-Le propriétaire peut, si l’UTILISATEUR manque à l’exécution de ses obligations, résilier la Licence. Dans ce cas, le Propriétaire informera l’UTILISATEUR de son intention de résilier la Licence par l’envoi d’une lettre recommandée avec accusé de réception dans laquelle la nature du manquement sera indiquée.
+The Owner may, if the USER fails to perform their obligations, terminate the License. In this case, the Owner shall inform the USER of its intention to terminate the License by sending a registered letter with acknowledgment of receipt in which the nature of the breach will be indicated.
 
-La résiliation prendra effet soit immédiatement lorsqu’il ne peut être remédié à ce manquement, soit, dans le cas contraire, dans un délai de trente (30) jours à compter de la réception de cette lettre si l’UTILISATEUR n’a pas porté remède à son manquement à la satisfaction du Propriétaire durant cette période.
+Termination shall take effect either immediately when the breach cannot be remedied, or, otherwise, within a period of thirty (30) days from the receipt of this letter if the USER has not remedied their breach to the Owner's satisfaction during this period.
 
-L’expiration de la Licence survient soit à son terme normal, soit après sa résiliation par l’une des Parties.
+The expiration of the License occurs either at its normal term or after its termination by one of the Parties.
 
-Cette expiration, qu’elle qu’en soit la cause ne portera pas atteinte aux clauses relatives à la confidentialité, aux publications et à la propriété intellectuelle.
+This expiration, regardless of the cause, shall not affect the clauses relating to confidentiality, publications, and intellectual property.
 
-A l’expiration de la Licence quelle qu’en soit la cause, l’UTILISATEUR s’engage à cesser d’utiliser le Programme. Il s’engage à détruire les fichiers licences et tous les supports originaux et les copies du Programme même partielles, en sa possession, y compris les éventuelles copies de sauvegarde, dans un délai maximum d’un (1) mois.
+Upon expiration of the License for any cause whatsoever, the USER undertakes to cease using the Program. They undertake to destroy the license files and all original media and copies of the Program, even partial, in their possession, including any backup copies, within a maximum period of one (1) month.
 
-L’UTILISATEUR établira, signera et transmettra au correspondant mentionné à l’article 11, un certificat attestant la destruction du Programme et de toute copie en sa possession.
+The USER shall establish, sign, and transmit to the correspondent mentioned in Article 11, a certificate attesting to the destruction of the Program and any copies in their possession.
 
-14. Force majeure
+14. Force Majeure
 
-Aucune des Parties ne sera responsable de la non-exécution totale ou partielle de ses obligations provoquées par un évènement constitutif de force majeure au sens de l’article 1218 du Code civil et reconnu comme tel par la jurisprudence des cours et tribunaux français.
+Neither Party shall be liable for the total or partial non-performance of its obligations caused by an event constituting force majeure within the meaning of Article 1218 of the French Civil Code and recognized as such by the jurisprudence of French courts and tribunals.
 
-La Partie invoquant un évènement constitutif de force majeure devra en aviser l’autre Partie dans les trente (30) jours suivant la survenue de cet évènement. De plus, elle s’engage à déployer ses meilleurs efforts afin de limiter les conséquences de cet évènement.
+The Party invoking an event constituting force majeure must notify the other Party within thirty (30) days following the occurrence of this event. Furthermore, it undertakes to deploy its best efforts to limit the consequences of this event.
 
-Les délais d’exécution seront prolongés pour une période déterminée d’un commun accord entre les Parties.
+The performance deadlines shall be extended for a period determined by mutual agreement between the Parties.
 
-Dans l’hypothèse ou un évènement de force majeure persisterait pendant plus de trente (30) jours à compter de la date à laquelle l’évènement de force majeure a été notifié à l’autre Partie, les Parties se rencontreront afin de déterminer les conditions en vertu desquelles la Licence sera maintenue ou résiliée.
+In the event that a force majeure event persists for more than thirty (30) days from the date on which the force majeure event was notified to the other Party, the Parties shall meet to determine the conditions under which the License will be maintained or terminated.
 
-15. Nullité
+15. Severability (Nullity)
 
-Si une ou plusieurs stipulations de la Licence sont tenues pour non valides ou déclarées telles en application d’une loi, d’un règlement ou à la suite d’une décision définitive rendue par une juridiction compétente, les autres stipulations de la Licence garderont toute leur force et leur portée.
+If one or more provisions of the License are held to be invalid or declared as such pursuant to a law, a regulation, or following a final decision rendered by a competent jurisdiction, the other provisions of the License shall retain their full force and scope.
 
-16. Titres
+16. Headings
 
-En cas de difficulté d’interprétation entre l’un quelconque des titres figurant en-tête des articles ou clauses de la Licence et l’un quelconque de ces articles ou clauses, les titres seront déclarés inexistants.
+In the event of difficulty of interpretation between any of the headings at the top of the articles or clauses of the License and any of these articles or clauses, the headings shall be declared non-existent.
 
+17. Waiver
 
+The fact that one of the Parties has not required the application of any clause of the License or has not taken advantage of a breach by the other Party, whether permanently or temporarily, shall in no case be considered a waiver of that Party's rights arising from the clause in question.
 
-17. Renonciation
+18. Relationship between the Parties
 
-Le fait qu’une des Parties n’ait pas exigé l’application d’une clause quelconque de la Licence ou ne se soit pas prévalu d’un manquement de l’autre Partie, que ce soit de façon permanente ou temporaire, ne pourra en aucun cas être considéré comme une renonciation aux droits de cette Partie découlant de la clause en question.
+The Parties are independent contracting parties. The Parties declare that the License can in no case be interpreted or considered as constituting a partnership, a group endowed with legal personality, nor a joint venture or a de facto company. Affectio societatis, the pursuit of sharing profits, and the contribution to losses are formally excluded.
 
-18. Relation entre les Parties
+19. Entire Agreement
 
-Les Parties sont des parties contractantes indépendantes. Les Parties déclarent que la Licence ne peut en aucun cas être interprétée ou considérée comme constituant un acte de société, un groupement doté de la personnalité morale, ni par ailleurs une société en participation ou une société de fait ou créée de fait. L’affection societatis, la recherche d’un partage de bénéfices et la contribution à des pertes sont formellement exclus.
+The License, supplemented by the license files, expresses the entirety of the obligations of the Parties.
 
-19. Intégralité
+It cancels and replaces in their entirety all proposals, promises, commitments, discussions, and writings previously exchanged between the Parties on this same subject.
 
-La Licence complétée par les fichiers licences exprime l’intégralité des obligations des Parties.
+It supplements all agreements, contracts, and conventions previously signed between the Parties, it being understood that in case of contradiction, the provisions of the License shall prevail.
 
-Elle annule et remplace en leur totalité, toutes propositions, promesses, engagements, discussions et écrits antérieurement échangés entre les Parties à ce même sujet.
+20. Partial Impossibility of Performance
 
-Elle complète tous accords, contrats et conventions précédemment signés entre les Parties, étant entendu qu’en cas de contradiction, les stipulations de la Licence prévaudront.
+If one or more clauses of the License cannot be put into effect for any reason whatsoever, the other provisions shall nevertheless retain their full validity. The Parties shall attempt, through good faith negotiations, to adapt or replace the clause(s) that proved to be inapplicable. The failure of the Parties to reach an agreement for the adaptation or replacement of the provisions in question shall not affect the validity of the License.
 
-20. Impossibilité partielle d’exécuter
+21. Governing Law and Dispute Resolution
 
-Si ou plusieurs des clauses de la Licence peuvent être mises en vigueur pour quelque cause que ce soit, les autres stipulations garderont néanmoins toute leur validité. Les Parties tenteront, au travers de négociations de bonne foi, d’adapter ou de remplacer la ou les clauses qui se seront avérées inapplicables. L’échec des Parties à arriver à un accord pour l’adaptation ou le remplacement des stipulations en cause n’affectera pas la validité de la Licence.
+The License is subject to French law.
 
-21. Loi applicable et règlement des litiges
+Any dispute not resolved amicably within a period of thirty (30) days may be brought before the competent French courts.
 
-La Licence est soumise à la loi française.
+22. Acceptance of the License
 
-Tout litige non résolu à l’amiable dans un délai de trente (30) jours, pourra être porté devant les juridictions françaises compétentes.
-
-22. Acceptation de la Licence
-
-L’accès (téléchargement ou autre), l’installation ou l’utilisation du Programme impliquent l’acceptation sans réserve de la Licence. La Licence est également applicable à toute mise à jour ultérieure ou toute nouvelle version du Programme.
+Access (download or otherwise), installation, or use of the Program implies unreserved acceptance of the License. The License is also applicable to any subsequent update or any new version of the Program.

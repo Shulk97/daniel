@@ -1,8 +1,8 @@
-# DANIEL: A Fast Document Attention Network for Information Extraction and Labeling of Handwritten Documents
+# DANIEL: A fast Document Attention Network for Information Extraction and Labeling of handwritten documents
 
 This repository contains the official implementation of the paper:
 
-**"DANIEL: A Fast Document Attention Network for Information Extraction and Labeling of Handwritten Documents"**
+**"DANIEL: A fast Document Attention Network for Information Extraction and Labeling of handwritten documents"**
 from Thomas CONSTUM, Pierrick TRANOUEZ and Thierry PAQUET (LITIS, University of Rouen Normandie).
 
 The paper has been accepted for publication in the [International Journal on Document Analysis and Recognition (IJDAR)](https://link.springer.com/article/10.1007/s10032-024-00511-9) and is also available on [arXiv](https://arxiv.org/abs/2407.09103).
@@ -13,30 +13,29 @@ This repository includes:
 
 A demonstration video of DANIEL is available on Youtube:
 
-
 [![Youtube](video-image.png)](https://www.youtube.com/watch?v=ibJJrkYMl1U)
 
 Pretrained model weights can be downloaded [here](https://zenodo.org/records/15846534).
 
 **This project is licensed under a custom Research Usage Only (RUO) license. Please refer to the license file LICENSE for more details.**
 
-## Table of Contents
-1. [Getting Started](#getting-started)
-2. [Reproducing Results](#reproducing-results)
-3. [Training DANIEL on Your Own Dataset](#training-daniel-on-your-own-dataset)
-4. [Choosing Transfer Learning Weights](#choosing-transfer-learning-weights)
-5. [Project Structure](#project-structure)
-6. [Training Parameters](#training-parameters)
+## Table of contents
+1. [Getting started](#getting-started)
+2. [Reproducing results](#reproducing-results)
+3. [Training DANIEL on your own dataset](#training-daniel-on-your-own-dataset)
+4. [Choosing transfer learning weights](#choosing-transfer-learning-weights)
+5. [Project structure](#project-structure)
+6. [Training parameters](#training-parameters)
 
-## Getting Started
+## Getting started
 
-### Environment Setup
+### Environment setup
 
 - **CUDA**: Version 12 is strongly recommended, along with an NVIDIA GPU with at least **16GB VRAM** for inference and **80GB VRAM** for training.
 - **Python**: The recommended version is **3.9**. If a different version is used, a Conda environment should be created to ensure compatibility.
 - **Conda**: Strongly recommended for environment replication. [Installation instructions](https://docs.anaconda.com/miniconda/install/#quick-command-line-install)
 
-#### Installation Steps:
+#### Installation steps:
 ```bash
 conda create --name daniel-env python=3.9
 conda activate daniel-env
@@ -48,19 +47,19 @@ git checkout 0.3.1
 pip3 install .
 ```
 
-### Required Files
+### Required files
 
 Certain files are necessary for running DANIEL and can be downloaded from [Zenodo](https://zenodo.org/records/15846599):
 - **Tokenizer**: The folder `tokenizer-daniel` should be placed in `basic/subwords`.
 - **Substitution Dictionary**: `replace_dict.pkl`, which contains substitution candidates for each subword during teacher forcing. Place this file in `basic/subwords`.
 
-## Reproducing Results
+## Reproducing results
 
 DANIEL has been evaluated for:
 - **HTR (Handwritten Text Recognition)** on **READ 2016, RIMES 2009, IAM, and M-POPP**.
 - **NER (Named Entity Recognition)** on **IAM NER and M-POPP NER**.
 
-### Step 1: Obtain the Datasets
+### Step 1: Obtain the datasets
 
 Formatted datasets should be placed in `Datasets/formatted`. The label format follows the DAN format.
 
@@ -82,14 +81,14 @@ The dataset folders follow this structure:
 - labels.pkl: the file containing the labels of the dataset
 
 
-### Step 2: Download Model Weights
+### Step 2: Download model weights
 
 Pretrained weights can be downloaded from the provided [link](https://zenodo.org/records/15846534). Extract them into the `outputs` folder:
 ```bash
 outputs/daniel_datasetname_strategy_X
 ```
 
-### Step 3: Model Evaluation
+### Step 3: Model evaluation
 
 Run the appropriate script based on the dataset and strategy:
 ```bash
@@ -100,7 +99,7 @@ For example, to evaluate a model on **RIMES** with strategy C:
 python3 OCR/document_OCR/daniel/rimes/ner/daniel_rimes_strategy_C.py
 ```
 
-## Training DANIEL on Your Own Dataset
+## Training DANIEL on your own dataset
 
 To adapt DANIEL to a new dataset, use the fine-tuning script:
 ```bash
@@ -109,7 +108,7 @@ python3 OCR/document_OCR/daniel/custom_dataset/daniel_custom_dataset_fine_tuning
 This script performs transfer learning from a DANIEL model trained on IAM NER with strategy A.
 You should therefore download the corresponding weights.
 
-### Dataset Requirements
+### Dataset requirements
 - Place your dataset in `Datasets/formatted/custom_dataset_page_sem` with images in `train`, `valid`, and `test` folders.
 - Formatted labels must be named `labels-custom-dataset.pkl`. For more information on the required format, please refer to the existing formatter scripts or the formatted labels of M-POPP available on Zenodo.
 - If using **semantic tokens**, update:
@@ -127,7 +126,7 @@ You should therefore download the corresponding weights.
       - Add the metric `"cer-ner"` to `"train_metrics"`. This metric computes the edit distance between the named entity tokens in the ground truth and the prediction, ignoring regular characters. It is used during training because it is faster to compute than `"nerval"`.
       - Add the metric `"nerval"` to `"eval_metrics"`.
 
-### Advanced Strategy: Using Custom Synthetic Data
+### Advanced strategy: Using custom synthetic data
 
 To leverage synthetic data, you need to gather the following elements:
 
@@ -162,22 +161,22 @@ Once all necessary elements are collected, follow these steps to integrate synth
    - Once the modifications are made, simply launch the training script.
 
 
-## Choosing Transfer Learning Weights
+## Choosing transfer learning weights
 
-### Selecting Pre-Trained Weights for Transfer Learning
+### Selecting pre-trained weights for transfer learning
 
 When performing transfer learning, choosing the right pre-trained weights is crucial for achieving optimal results. Below are the recommended weight options based on your dataset and annotation availability:
 
 #### 1. **`daniel_iam_ner_strategy_A_custom_split`**
-   - **Training Data:** Trained on all synthetic datasets and real datasets *except* M-POPP.
-   - **Best Use Case:** Suitable when only a small amount of annotated data is available in the target dataset.
-   - **Attention Granularity:** 32-pixel vertical granularity, meaning the encoder’s output feature map has a height of **H/32** (where **H** is the input image height).
+   - **Training data:** Trained on all synthetic datasets and real datasets *except* M-POPP.
+   - **Best use case:** Suitable when only a small amount of annotated data is available in the target dataset.
+   - **Attention granularity:** 32-pixel vertical granularity, meaning the encoder’s output feature map has a height of **H/32** (where **H** is the input image height).
 #### 2. **`daniel_multi_synth`**
-   - **Training Data:** Trained exclusively on synthetic datasets *excluding* M-POPP, with no real data. Used to initialize fine-tuning strategies **A and B** for the **IAM/IAM NER, RIMES 2009, and READ 2016** datasets.
-   - **Best Use Case:** Suitable for modern document datasets with several thousand annotated pages.
-   - **Attention Granularity:** 32-pixel vertical granularity (**H/32**).
+   - **Training data:** Trained exclusively on synthetic datasets *excluding* M-POPP, with no real data. Used to initialize fine-tuning strategies **A and B** for the **IAM/IAM NER, RIMES 2009, and READ 2016** datasets.
+   - **Best use case:** Suitable for modern document datasets with several thousand annotated pages.
+   - **Attention granularity:** 32-pixel vertical granularity (**H/32**).
 
-## Generating Synthetic Data Offline
+## Generating synthetic data offline
 
 The full-document synthetic data used for training the DANIEL model is generated on-the-fly during training.
 However, if you'd like to generate this data offline, for instance to visualize the data for debugging the generation, you can easily do so by launching any training script with the argument `mode='synth'`.
@@ -192,7 +191,7 @@ In the `specific_dataset_cfg` dictionnary, you can customize the synthetic data 
   Path to the folder where the generated synthetic documents will be saved.
 
 
-## Project Structure
+## Project structure
 
 The project is organized into the following directories:
 
